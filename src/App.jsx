@@ -4,9 +4,8 @@ import MyPicture from "./assets/My Picture.jpg";
 import { contact, educationdData } from "./data";
 function App() {
   const [about, setAbout] = useState(true);
-
   return (
-    <div className="max-w-[1080px] w-full mx-auto bg-gray-50 flex flex-wrap md:flex-nowrap gap-4 px-4 mt-3">
+    <div className="max-w-[900px] w-full mx-auto bg-gray-50 flex flex-wrap md:flex-nowrap gap-4 px-4 mt-3">
       <div className="bg-blue-300 w-full md:w-[30rem] p-4 rounded-xl shadow-lg">
         <div className="flex flex-col justify-center items-center">
           <div className="style">
